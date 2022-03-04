@@ -3,9 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>web_api_receiver</RootNamespace>
+    <UserSecretsId>22e55acd-db7d-474c-85a1-239020f34f86</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
   </ItemGroup>

@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29926.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-api-receiver", "web-api-receiver\web-api-receiver.csproj", "{0F3D2576-9896-4AB8-9425-1A9CABF85C2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-api-sender", "web-api-sender\web-api-sender.csproj", "{2B575CE3-B0C2-4B2B-8932-2987F231C8DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-api-sender", "web-api-sender\web-api-sender.csproj", "{2B575CE3-B0C2-4B2B-8932-2987F231C8DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5387254-6837-48B0-BB14-F4642DA859B8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

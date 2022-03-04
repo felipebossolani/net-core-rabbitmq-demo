@@ -58,7 +58,7 @@ namespace web_api_receiver.Receiver
                 var content = Encoding.UTF8.GetString(ea.Body.Span);
 
                 Console.WriteLine($"Processando mensagem: {content}");
-                System.Threading.Thread.Sleep(3000);
+                System.Threading.Thread.Sleep(1000);
                 Console.WriteLine($"Mensagem: {content} processada");
 
 
